@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> FuncUnit Tests </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles\style.css">
+
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+    <script src="libs/funcUnit.js"></script>
+
+    <!-- my files -->
+    <script src="scripts/tests.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+
+    <div id="qunit-test-area"></div>
+
+
+
+    <div id='mainContainer'>
+        <h1 id="sample"> I am from HTML </h1>
+
+        <div class="holder">
+            <label> Button </label>
+            <button id="btn"> Click here </button>
+        </div>
+
+        <div class="holder">
+            <label> Slider </label>
+            <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <div class="holder">
+            <label> Text Box 1 </label>
+            <input type="text" id="textbox1">
+
+
+            <label> Text Box 2</label>
+            <input type="text" id="textbox2">
+        </div>
+
+        <hr>
+
+        <div id="outputDiv">
+
+        </div>
+
+        <div id="container">
+            <input id="tempText" type="text" value="This is static text from HTML">
+        </div>
+</body>
+
+</html>
